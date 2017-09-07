@@ -33,6 +33,6 @@ try:
 	s.sendall(msg) # envia o json para o servidor
 
 finally:
-	print("Enviado")
+	# finalizar a conexao
 	s.close()
 
