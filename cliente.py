@@ -17,7 +17,7 @@ HOST = 'localhost'
 PORT = 80
 ADDR = (HOST, PORT)
 
-# cria a socket e se conecta ao endereco
+# cria o socket e se conecta ao endereco
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(ADDR)
 
