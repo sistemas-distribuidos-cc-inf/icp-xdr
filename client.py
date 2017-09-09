@@ -24,7 +24,7 @@ class Contact:
 
 # trocar host e porta se necessario
 HOST = 'localhost'
-PORT = 80
+PORT = 2000
 ADDR = (HOST, PORT)
 	
 def main():
